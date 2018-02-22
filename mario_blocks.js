@@ -1,16 +1,29 @@
+var test = "";
+var height = 4;
+var space = ' '
+var pound = '#'
+var spaceNumber = height - 1
+var poundNumber = height - 2
 
+//Part 1 (need to comment out one for the other to work
+//because of variable commonality)
 
-var height  = 5;
-var space = ' ';
-var pound = '#';
+// for(height; height > 0; height--) {
+//   var spaceRepeat = space.repeat(spaceNumber);
+//   var poundRepeat = pound.repeat(poundNumber);
+  
+//   console.log(spaceRepeat + poundRepeat);
+//   spaceNumber--
+//   poundNumber++
+// }
 
-for (var i=4; i < height; i--){
+//Part 2
 
-	var spaceNum = space.repeat(i);
-	var poundNum = pound.repeat(i);
-
-	console.log(spaceNum + poundNum);
-
-}
-
-console.log("test");
+for(height; height > 0; height--) {
+  var spaceRepeat = space.repeat(spaceNumber);
+  var poundRepeat = pound.repeat(poundNumber);
+  
+  console.log(spaceRepeat + poundRepeat + ' ' + poundRepeat + spaceRepeat);
+  spaceNumber--;
+  poundNumber++;
+}  
