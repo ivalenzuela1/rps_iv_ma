@@ -26,4 +26,4 @@ for(height; height > 0; height--) {
   console.log(spaceRepeat + poundRepeat + ' ' + poundRepeat + spaceRepeat);
   spaceNumber--;
   poundNumber++;
-}  
+} 
