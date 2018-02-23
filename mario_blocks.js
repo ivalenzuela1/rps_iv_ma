@@ -27,3 +27,4 @@ for(height; height > 0; height--) {
   spaceNumber--;
   poundNumber++;
 } 
+
